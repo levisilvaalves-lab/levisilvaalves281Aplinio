@@ -1,1 +1,158 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo do Futebol</title>
+    <style>
+        /* Estilização Básica (CSS) para deixar o site bonito */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #006400; /* Verde Estádio */
+            color: white;
+            padding: 20px text-align;
+            text-align: center;
+        }
+        nav {
+            background-color: #222;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #006400;
+            border-radius: 5px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        .section-title {
+            color: #006400;
+            border-bottom: 2px solid #006400;
+            padding-bottom: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #006400;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mundo do Futebol</h1>
+        <p>A paixão que move multidões</p>
+    </header>
+
+    <nav>
+        <a href="#historia">História</a>
+        <a href="#regras">Regras Básicas</a>
+        <a href="#torneios">Grandes Torneios</a>
+    </nav>
+
+    <div class="container">
+        
+        <section id="historia">
+            <h2 class="section-title">A História do Futebol</h2>
+            <p>Embora jogos com bola existam desde a antiguidade, o futebol moderno como conhecemos hoje foi formalizado na <strong>Inglaterra em 1863</strong>, com a criação da <em>Football Association</em>.</p>
+            <p>Desde então, o esporte cresceu exponencialmente, transformando-se no esporte mais popular do planeta, unindo culturas e gerando rivalidades históricas.</p>
+        </section>
+
+        <hr>
+
+        <section id="regras">
+            <h2 class="section-title">Regras Básicas</h2>
+            <p>O objetivo do jogo é simples: colocar a bola dentro do gol adversário usando qualquer parte do corpo, exceto as mãos e os braços (regra válida para os jogadores de linha).</p>
+            <ul>
+                <li><strong>Duração:</strong> 90 minutos divididos em dois tempos de 45 minutos.</li>
+                <li><strong>Jogadores:</strong> 11 jogadores titulares em cada equipe.</li>
+                <li><strong>O Goleiro:</strong> O único jogador que pode usar as mãos, desde que esteja dentro da sua grande área.</li>
+                <li><strong>Impedimento:</strong> Um jogador não pode receber o passe à frente do último defensor adversário no momento do chute.</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="torneios">
+            <h2 class="section-title">Principais Competições do Mundo</h2>
+            <p>Confira alguns dos campeonatos mais importantes e cobiçados por clubes e seleções:</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Competição</th>
+                        <th>Tipo</th>
+                        <th>Frequência</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Copa do Mundo da FIFA</td>
+                        <td>Seleções</td>
+                        <td>A cada 4 anos</td>
+                    </tr>
+                    <tr>
+                        <td>UEFA Champions League</td>
+                        <td>Clubes (Europa)</td>
+                        <td>Anual</td>
+                    </tr>
+                    <tr>
+                        <td>Copa Libertadores da América</td>
+                        <td>Clubes (América do Sul)</td>
+                        <td>Anual</td>
+                    </tr>
+                    <tr>
+                        <td>Campeonato Brasileiro (Brasileirão)</td>
+                        <td>Clubes (Brasil)</td>
+                        <td>Anual</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 - Desenvolvido por um fã de Futebol.</p>
+    </footer>
+
+</body>
+</html>
