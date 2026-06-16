@@ -17,7 +17,7 @@
         header {
             background-color: #006400; /* Verde Estádio */
             color: white;
-            padding: 20px text-align;
+            padding: 20px;
             text-align: center;
         }
         nav {
@@ -48,6 +48,12 @@
             color: #006400;
             border-bottom: 2px solid #006400;
             padding-bottom: 5px;
+        }
+        /* Estilização para centralizar o vídeo */
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
         }
         table {
             width: 100%;
@@ -84,6 +90,7 @@
 
     <nav>
         <a href="#historia">História</a>
+        <a href="#video">Assista</a>
         <a href="#regras">Regras Básicas</a>
         <a href="#torneios">Grandes Torneios</a>
     </nav>
@@ -94,6 +101,15 @@
             <h2 class="section-title">A História do Futebol</h2>
             <p>Embora jogos com bola existam desde a antiguidade, o futebol moderno como conhecemos hoje foi formalizado na <strong>Inglaterra em 1863</strong>, com a criação da <em>Football Association</em>.</p>
             <p>Desde então, o esporte cresceu exponencialmente, transformando-se no esporte mais popular do planeta, unindo culturas e gerando rivalidades históricas.</p>
+        </section>
+
+        <hr>
+
+        <section id="video">
+            <h2 class="section-title">Futebol em Destaque</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/wuodvsSfkQo?si=IX29Zpu5ma6-9iX6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
         </section>
 
         <hr>
